@@ -1298,6 +1298,10 @@ video {
     flex-direction: row;
   }
 
+  .sm\:justify-start {
+    justify-content: flex-start;
+  }
+
   .sm\:p-10 {
     padding: 2.5rem;
   }
