@@ -622,6 +622,10 @@ video {
   top: 5rem;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -992,6 +996,11 @@ video {
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 205 225 / var(--tw-bg-opacity));
 }
 
 .p-10 {
