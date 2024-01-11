@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bellevue Pet Adventures</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="preload" href="./public/images/newLanding.avif" as="image">
+    <link rel="preload" href="./public/images/newLanding-1.avif" as="image">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="/dist/output.css" rel="stylesheet">
     <meta name="description" content="Home page for Bellevue Pet Adventures in Bellevue, Nebraska">
@@ -71,7 +73,6 @@
 
     <section class="w-full block sm:hidden">
       <div class="h-40" style="background: url('./public/images/newLanding-1.avif'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-          
       </div>
       <div class=" text-center mt-10 p-4">
         <h1 class="text-black text-4xl ">Bellevue Pet Adventures</h1>
@@ -94,9 +95,9 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-2 pt-20 px-10 gap-5">
-            <div><img width="500" height="500" src="./public/images/grid-1.avif" alt="Dog with halloween hankerchief" loading="lazy"></div>
+            <div><img width="500" height="500" src="./public/images/grid-1.avif" alt="Dog with halloween hankerchief"></div>
             <div class="flex flex-col items-center justify-center px-5 gap-4">
-                <div><img loading="lazy" width="158" height="158" src="./public/images/landing-grid-2.avif" alt="new customer"></div>
+                <div><img  width="158" height="158" src="./public/images/landing-grid-2.avif" alt="new customer"></div>
                 <div class="text-primary text-2xl font-bold">Grooming</div>
                 <p class="text-center">We get your dogs looking their best. A well-groomed dog is a happy dog.</p>
                 <a href="./src/pages/services.html">
