@@ -36,12 +36,11 @@ module.exports = {
       fontWeight: {
         normal: '400',
         bold: '700',
-      },
-      plugins: [
-        require('flowbite/plugin')
-    ]
+      }
        
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
