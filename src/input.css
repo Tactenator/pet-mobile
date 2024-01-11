@@ -6,8 +6,7 @@
 
 @font-face {
   font-family: "Playfair";
-  src:  local('Playfair-Display'), local('Playfair Display'), 
-  url('https://fonts.googleapis.com/css2?family=Gabriela&family=Playfair+Display&display=swap');
+  src: url('https://fonts.googleapis.com/css2?family=Gabriela&family=Playfair+Display&display=swap');
   font-display: swap; 
 }
 
