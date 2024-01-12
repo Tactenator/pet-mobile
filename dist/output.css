@@ -1769,10 +1769,6 @@ input:checked + .toggle-bg {
   text-align: center;
 }
 
-.font-Gabriela {
-  font-family: Gabriela, sans-serif;
-}
-
 .text-2xl {
   font-size: 1.777rem;
 }

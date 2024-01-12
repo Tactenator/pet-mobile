@@ -30,7 +30,6 @@ module.exports = {
         '5xl': '4.210rem',
       },
       fontFamily: {
-        Gabriela: ['Gabriela, sans-serif'],
         Playfair: ['Playfair, sans-serif']
       },
       fontWeight: {
