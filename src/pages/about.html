@@ -12,23 +12,23 @@
 
     </head>
 <body class="bg-background">
-    <nav class="hidden sm:flex flex-row justify-between items-center px-10 py-5">
+    <nav class="hidden md:flex flex-row justify-between items-center px-10 py-5">
         <div class="">
             <a href="/"><img width="150" height="150" src="../../public/images/logo.avif" alt="Bellevue Pet Adventures"></a>
         </div>
-        <ul class="flex flex-row gap-20 text-xl px-10 font-bold items-center">
-            <li><a class="font-Gabriela relative before:transition-all before:duration-200 hover:cursor-pointer
+        <ul class="flex flex-row gap-10 text-xl px-10 font-bold items-center">
+            <li><a class="relative before:transition-all before:duration-200 hover:cursor-pointer
                 before:absolute before:h-[3px] before:w-0 before:bg-accent before:hover:w-full before:top-full" href="/">Home</a></li>
-            <li><a class="font-Gabriela relative before:transition-all before:duration-200 hover:cursor-pointer
+            <li><a class="relative before:transition-all before:duration-200 hover:cursor-pointer
                 before:absolute before:h-[3px] before:w-0 before:bg-accent before:hover:w-full before:top-full" href="./about.html">About Us</a></li>
-            <li><a class="font-Gabriela relative before:transition-all before:duration-200 hover:cursor-pointer
+            <li><a class="relative before:transition-all before:duration-200 hover:cursor-pointer
                 before:absolute before:h-[3px] before:w-0 before:bg-accent before:hover:w-full before:top-full" href="./services.html">Services</a></li>
-            <li><a class="font-Gabriela relative before:transition-all before:duration-200 hover:cursor-pointer
+            <li><a class="relative before:transition-all before:duration-200 hover:cursor-pointer
                 before:absolute before:h-[3px] before:w-0 before:bg-accent before:hover:w-full before:top-full" href="./newcustomer.html">New Customer</a></li>
         </ul>
         
     </nav>
-    <nav class="flex sm:hidden flex-row justify-between items-center px-10 py-7">
+    <nav class="flex sm:flex md:hidden flex-row justify-between items-center px-10 py-7">
         <div><a href="/"><img width="75" height="75" src="../../public/images/logo.avif" alt="Bellevue Pet Adventures"></a></div>
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-accent " aria-controls="navbar-default" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
@@ -37,13 +37,13 @@
             </svg>
         </button>
       </nav>
-      <div class="absolute z-20 top-20 hidden w-full md:w-auto" id="navbar-default">
+      <div class="absolute z-50 top-20 hidden w-full md:w-auto" id="navbar-default">
           <ul class="font-bold text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100  bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a href="../../index.html" class="block py-2 px-3 text-white bg-primary rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">Home</a>
+              <a href="../../index.html" class="block py-2 px-3 text-gray-900 rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="./about.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About</a>
+              <a href="./about.html" class="block py-2 px-3 text-white bg-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About</a>
             </li>
             <li>
               <a href="./services.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Services</a>
@@ -58,8 +58,8 @@
         <div class="hidden sm:block relative h-[40vh] sm:h-[80vh]" style="background:  url('../../public/images/background_about_us.avif'); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div class="absolute top-40 sm:top-60 left-0 transform -translate-y-1/2 translate-x-5 sm:translate-x-28 inline-block">
                 <span class="text-xl sm:text-2xl text-white">About Us</span>
-                <h1 class="text-white text-3xl sm:text-5xl">Dogs Are Our World</h1>
-                <h2 class="text-accent text-xl sm:text-2xl pt-3 pb-10">Setting the Standard for Dog Grooming, Boarding, and Daycare</h2>
+                <h1 class="text-white text-3xl sm:text-5xl w-3/4">Dogs Are Our World</h1>
+                <h2 class="text-accent text-xl sm:text-2xl pt-3 pb-10 w-3/4">Setting the Standard for Dog Grooming, Boarding, and Daycare</h2>
                 <a class="hidden sm:block" href="./services.html">
                     <button class="bg-primary text-center px-20 py-5 rounded-xl mx-auto text-white font-bold text-xl transition-all duration-300 hover:bg-secondary hover:text-black">Our Services</button> 
                 </a>
@@ -80,12 +80,12 @@
 
     <section class="bg-modal mx-5 px-5 sm:mx-20 sm:px-20 py-10 transform -translate-y-5 sm:-translate-y-10">
         <div class="flex flex-col sm:flex-col md:flex-col lg:flex-row gap-10">
-            <div class="w-full sm:w-3/4 sm:text-left">
+            <div class="w-full sm:text-left">
                 <div class="text-primary text-4xl">Giving Dogs</div>
                 <div class="text-4xl">The Time Of Their Lives</div>
                 <p class="pt-5 text-lg">Bellevue Pet Adventures is a dog grooming, boarding, and daycare facility. Our mission is to provide the best experience for you and your pups by providing a safe, clean and fun environment for your dogs to enjoy! </p>
             </div>
-            <div class="flex flex-col gap-4 border-background border-4 p-4">
+            <div class="flex flex-col justify-between w-full border-background border-4 p-4">
                 <div class="flex flex-col gap-2">
                     <div class="flex flex-row items-center gap-10">
                         <i class="fa-solid fa-check text-primary"></i>
@@ -110,7 +110,7 @@
             </div>    
         </div>
 
-        <div class="flex flex-col sm:flex-row justify-center items-center mx-auto pt-20">
+        <div class="flex flex-col lg:flex-row justify-center items-center mx-auto pt-20">
             <div class="flex flex-col gap-6 p-4">
                 <div><img alt="Small house with a paw inside it" width="75" height="75" src="../../public/images/about-grid-1.svg"></div>
                 <div class="text-2xl font-bold">Home Sweet Home</div>
