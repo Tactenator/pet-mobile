@@ -1964,7 +1964,7 @@ input:checked + .toggle-bg {
 }
 
 * {
-  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+  font-family: 'Playfair';
   margin: 0;
   padding: 0;
 }
