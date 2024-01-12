@@ -2463,6 +2463,10 @@ input:checked + .toggle-bg {
     font-size: 4.210rem;
   }
 
+  .md\:text-4xl {
+    font-size: 3.158rem;
+  }
+
   .md\:text-blue-700 {
     --tw-text-opacity: 1;
     color: rgb(26 86 219 / var(--tw-text-opacity));
@@ -2510,6 +2514,10 @@ input:checked + .toggle-bg {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-5xl {
+    font-size: 4.210rem;
   }
 }
 
