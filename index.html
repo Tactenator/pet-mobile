@@ -13,22 +13,22 @@
     
 </head>
 <body class="bg-background">
-    <nav class="hidden sm:flex flex-row justify-between items-center px-10 py-5">
+    <nav class="hidden md:flex flex-row justify-between items-center px-10 py-5">
         <div class="">
             <a href="/"><img width="150" height="150" src="./public/images/logo.avif" alt="Bellevue Pet Adventures"></a>
         </div>
-        <ul class="flex flex-row gap-20 text-xl px-10 font-bold items-center">
-            <li><a class="font-Gabriela relative before:transition-all before:duration-200 hover:cursor-pointer
+        <ul class="flex flex-row gap-10 text-xl sm:px-5 md:px-10 font-bold items-center">
+            <li><a class="relative before:transition-all before:duration-200 hover:cursor-pointer
               before:absolute before:h-[3px] before:w-0 before:bg-accent before:hover:w-full before:top-full" href="/">Home</a></li>
-            <li><a class="font-Gabriela relative before:transition-all before:duration-200 hover:cursor-pointer
+            <li><a class="relative before:transition-all before:duration-200 hover:cursor-pointer
               before:absolute before:h-[3px] before:w-0 before:bg-accent before:hover:w-full before:top-full" href="src/pages/about.html">About Us</a></li>
-            <li><a class="font-Gabriela relative before:transition-all before:duration-200 hover:cursor-pointer
+            <li><a class="relative before:transition-all before:duration-200 hover:cursor-pointer
               before:absolute before:h-[3px] before:w-0 before:bg-accent before:hover:w-full before:top-full" href="src/pages/services.html">Services</a></li>
-            <li><a class="font-Gabriela relative before:transition-all before:duration-200 hover:cursor-pointer
+            <li><a class="relative before:transition-all before:duration-200 hover:cursor-pointer
               before:absolute before:h-[3px] before:w-0 before:bg-accent before:hover:w-full before:top-full" href="src/pages/newcustomer.html">New Customer</a></li>
         </ul>
     </nav>
-    <nav class="flex sm:hidden flex-row justify-between items-center px-10 py-7">
+    <nav class="flex sm:flex md:hidden flex-row justify-between items-center px-10 py-7">
       <div><a href="/"><img width="75" height="75" src="./public/images/logo.avif" alt="Bellevue Pet Adventures"></a></div>
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-accent " aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
@@ -37,7 +37,7 @@
           </svg>
       </button>
     </nav>
-    <div class="absolute top-20 hidden w-full md:w-auto" id="navbar-default">
+    <div class="absolute top-20 hidden w-full md:w-auto z-50" id="navbar-default">
         <ul class="font-bold text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100  bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
             <a href="./index.html" class="block py-2 px-3 text-white bg-primary rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">Home</a>
@@ -57,7 +57,7 @@
     <section class="w-full hidden sm:block">
         <div class="relative h-[70vh] hidden sm:block" style="background: url('./public/images/newLanding.avif'); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div class="absolute top-60 left-1/2 transform -translate-y-1/2 -translate-x-1/2 text-center">
-                <h1 class="text-white text-5xl font-bold">Bellevue Pet Adventures</h1>
+                <h1 class="text-white sm:text-4xl lgd:text-5xl font-bold">Bellevue Pet Adventures</h1>
                 <h2 class="text-accent text-2xl pt-3 pb-10 font-bold">
                   Bellevue's Top Rated Dog Boarding, Daycare, and Grooming Facility.</h2>
                 <a href="./src/pages/services.html">
@@ -94,7 +94,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-2 pt-20 px-10 gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-rows-2 pt-20 px-10 gap-5">
             <div><img width="500" height="500" src="./public/images/grid-1.avif" alt="Dog with halloween hankerchief"></div>
             <div class="flex flex-col items-center justify-center px-5 gap-4">
                 <div><img  width="158" height="158" src="./public/images/landing-grid-2.avif" alt="new customer"></div>

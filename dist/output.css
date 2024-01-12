@@ -1113,16 +1113,16 @@ input:checked + .toggle-bg {
   top: 5rem;
 }
 
+.top-28 {
+  top: 7rem;
+}
+
 .top-40 {
   top: 10rem;
 }
 
 .top-60 {
   top: 15rem;
-}
-
-.top-28 {
-  top: 7rem;
 }
 
 .z-10 {
@@ -1310,6 +1310,10 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-\[150px\] {
+  min-width: 150px;
 }
 
 .max-w-fit {
@@ -2286,6 +2290,10 @@ input:checked + .toggle-bg {
     gap: 1.25rem;
   }
 
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .sm\:p-10 {
     padding: 2.5rem;
   }
@@ -2314,6 +2322,11 @@ input:checked + .toggle-bg {
     padding-bottom: 1.25rem;
   }
 
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .sm\:text-left {
     text-align: left;
   }
@@ -2329,11 +2342,23 @@ input:checked + .toggle-bg {
   .sm\:text-5xl {
     font-size: 4.210rem;
   }
+
+  .sm\:text-xl {
+    font-size: 1.333rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 2.369rem;
+  }
 }
 
 @media (min-width: 768px) {
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:hidden {
@@ -2356,6 +2381,10 @@ input:checked + .toggle-bg {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -2366,6 +2395,10 @@ input:checked + .toggle-bg {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:gap-20 {
+    gap: 5rem;
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -2389,6 +2422,19 @@ input:checked + .toggle-bg {
 
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.333rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 4.210rem;
   }
 
   .md\:text-blue-700 {
@@ -2420,12 +2466,22 @@ input:checked + .toggle-bg {
     width: 50%;
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:text-left {
     text-align: left;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
