@@ -2282,6 +2282,10 @@ input:checked + .toggle-bg {
     justify-content: flex-start;
   }
 
+  .sm\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .sm\:p-10 {
     padding: 2.5rem;
   }
